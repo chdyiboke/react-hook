@@ -27,6 +27,6 @@ useEffect(
   [props.source],
 );
 
-只有当 props.source 改变后才会重新创建订阅。
+只有当 props.source 改变后才会重新创建订阅(调用useEffect)。
 依赖  props.source
 ```
